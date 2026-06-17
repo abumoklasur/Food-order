@@ -1,0 +1,22 @@
+.hero_container{
+    height: 120vh;
+    display: grid;
+    place-items: center ;
+}
+.hero_content{
+    text-align: center;
+}
+.hero_content h1{
+    font-size: 12rem;
+     font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hero_img{
+    width: 1000px;
+    height: 750px;
+    object-fit: contain;
+    margin-top: -7rem;
+}

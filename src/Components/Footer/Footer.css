@@ -1,0 +1,24 @@
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 3rem;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 2px solid #666;
+}
+.footer_socials{
+    display: flex;
+    gap: 10px;
+}
+
+.footer_icon{
+        font-size: 22px;
+    margin-left: 10px;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}

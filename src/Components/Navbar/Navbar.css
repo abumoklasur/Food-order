@@ -1,0 +1,51 @@
+.navbar{
+    padding: 30px;
+    padding-inline: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link ul{
+    display: flex;
+    gap: 20px;
+}
+
+.link ul li{
+    list-style: none;
+    font-family: 18;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.logo-header h2{
+    font-size: 1.5rem;
+    font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nav_icon_wrapper{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav_icon{
+    font-size: 35px;
+    margin-left: 35px;
+}
+
+.nav_qty{
+    background-color: red;
+    position: absolute;
+    right: -9px;
+    top: -11px;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
